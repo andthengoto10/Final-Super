@@ -1,0 +1,173 @@
+@import './assest/variables.scss';
+
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	&:focus {
+		outline: none;
+	}
+}
+img,
+a {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+html {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1900 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1900 - 300)));
+	letter-spacing: 1px;
+}
+body,
+figure,
+h1,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+h1 {
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+h2 {
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+h3 {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+p {
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+nav {
+	font-size: .9rem;
+}
+img {
+	width: 100%;
+	display: block;
+}
+input {
+	font-size: .8rem;
+	border: none;
+	&::placeholder {
+		color: $light-color;
+		letter-spacing: 1px;
+		transition: all .25s;
+	}
+	&:focus {
+		outline: 0;
+		&::placeholder {
+			font-size: .6rem;
+		}
+	}
+}
+button {
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	&:active {
+		box-shadow: unset;
+		outline: none;
+		border: none;
+	}
+	&:focus {
+		outline: 0;
+	}
+}
+@media (min-width: 1801px) {
+	html {
+		font-size: 23px;
+		line-height: 1.6em;
+		letter-spacing: 1.4px;
+	}
+}
+
+/* style the confirmation page when open the email */
+.confirmation,
+.resetPassword {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 1px;
+	button {
+		min-width: 150px;
+		border: none;
+		box-shadow: 0 0 5px $gray-color;
+		background-color: $green-color;
+		color: $white-color;
+		padding: 13px;
+		margin-top: 35px;
+		font-size: .8rem;
+		letter-spacing: 1px;
+	}
+}
+/* style the tables */
+.react-bs-table-container {
+	td {
+		padding: 13px 0 12px 5px !important;
+		cursor: pointer;
+	}
+	tr {
+		&:hover {
+			background-color: $gray-color;
+		}
+	}
+	.fas.fa-circle.green {
+		color: $green-color;
+		font-size: 10px;
+	}
+	.fas.fa-circle.red {
+		color: $red-color;
+		font-size: 10px;
+	}
+	.react-bs-table-pagination {
+		.active.page-item {
+			.page-link {
+				border-color: $green-color;
+				background-color: $green-color;
+				color: $white-color;
+			}
+		}
+		.page-link {
+			color: $green-color;
+		}
+	}
+}
+/* style the Calendar */
+.react-calendar {
+	width: 70% !important;
+	margin: 0 auto 1%;
+	font-size: 1rem;
+	box-shadow: 0 0 3px #ccc;
+	border: none !important;
+	.react-calendar__month-view__days__day--weekend {
+		color: $red-color;
+	}
+	.react-calendar__tile--active:enabled:hover,
+	.react-calendar__tile--active:enabled:focus {
+		background: $green-color;
+	}
+	.react-calendar__tile--active {
+		background: $green-color;
+	}
+}

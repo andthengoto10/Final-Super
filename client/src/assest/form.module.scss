@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.formContainer {
+	min-height: 90vh;
+	padding-top: 7%;
+	margin: 0% auto;
+	background-color: $gray-color;
+	text-align: center;
+	h1 {
+		color: $green-color;
+		margin-bottom: 25px;
+	}
+	p {
+		color: $light-color;
+	}
+	a {
+		color: $green-color;
+	}
+	.msgErrors {
+		padding: 10px;
+		min-height: auto;
+		font-size: .7rem;
+		color: $red-color;
+	}
+	.sendEmail {
+		color: $dark-color;
+		transition: all .25s;
+		cursor: pointer;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		div {
+			width: 350px;
+			min-height: 70px;
+			margin: 0 auto;
+			position: relative;
+			.errors {
+				padding-top: 4px;
+				min-height: auto;
+				font-size: .7rem;
+				color: $red-color;
+				text-align: left;
+			}
+			.forgotPassword {
+				font-size: .7rem;
+				color: $light-color;
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			i {
+				position: absolute;
+				right: 10px;
+				top: 18px;
+				width: 15px;
+				cursor: pointer;
+			}
+			input {
+				width: 100%;
+				padding: 14px;
+				box-shadow: 0 3px 3px #ccc;
+			}
+		}
+		input[type="submit"] {
+			width: 120px;
+			padding: 13px;
+			margin: 20px auto;
+			background-color: $green-color;
+			color: $white-color;
+			letter-spacing: 1px;
+		}
+	}
+	.notRobot {
+		width: auto;
+		margin: 0 auto;
+		div {
+			margin: 0 auto;
+		}
+	}
+}

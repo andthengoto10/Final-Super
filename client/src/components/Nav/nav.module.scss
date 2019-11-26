@@ -1,0 +1,34 @@
+@import '../../assest/variables.scss';
+
+.navBar {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	background-color: $white-color;
+	box-shadow: 0 0 3px #ccc;
+	border-bottom: 3px solid $green-color;
+	z-index: 9999;
+	.logo {
+		margin-left: 25px;
+		img {
+			width: 140px;
+		}
+	}
+	ul {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0;
+		margin: 0;
+		li {
+			margin-right: 35px;
+			a {
+				text-decoration: none;
+				color: $dark-color;
+			}
+		}
+	}
+}

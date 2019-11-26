@@ -1,0 +1,33 @@
+{
+	"name": "super-project",
+	"version": "1.0.0",
+	"description": "attendance tracked",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon index.js",
+		"start": "concurrently \"nodemon index.js && cd client && npm start\"",
+		"heroku-postbuild": "cd client && npm install && npm run build"
+	},
+	"author": "fbw6",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^3.0.6",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"concurrently": "^4.1.2",
+		"cors": "^2.8.5",
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1",
+		"express-jwt": "^5.3.1",
+		"express-validator": "^6.2.0",
+		"is-empty": "^1.2.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.6.10",
+		"nodemailer": "^6.3.0",
+		"nodemon": "^1.19.2",
+		"passport": "^0.4.0",
+		"passport-jwt": "^4.0.0",
+		"validator": "^11.1.0"
+	}
+}
