@@ -1,0 +1,9 @@
+EMAIL=test5test5test94@gmail.com
+PASSWORD=Asdfg1994
+
+DBUSER="SuperCode"
+DBPASS="okTUu1R4EJPh1DhR"
+CLUSTNAME="ur0yh"
+
+
+mongorestore --host Cluster0-shard-0/cluster0-shard-00-00-lqiwv.mongodb.net:27017,cluster0-shard-00-01-lqiwv.mongodb.net:27017,cluster0-shard-00-02-lqiwv.mongodb.net:27017 --ssl --username SuperCode --password <PASSWORD> --authenticationDatabase admin 
