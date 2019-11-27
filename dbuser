@@ -6,4 +6,14 @@ DBPASS="okTUu1R4EJPh1DhR"
 CLUSTNAME="ur0yh"
 
 
+EMAIL=andtehngoto10@gmail.com
+PASSWORD=Supercode2019
+
+DBUSER="SuperCode"
+DBPASS="Supercode2019"
+CLUSTNAME="lqiwv"
+
+abodakhadog94@gmail.com
+qweqwe
+
 mongorestore --host Cluster0-shard-0/cluster0-shard-00-00-lqiwv.mongodb.net:27017,cluster0-shard-00-01-lqiwv.mongodb.net:27017,cluster0-shard-00-02-lqiwv.mongodb.net:27017 --ssl --username SuperCode --password <PASSWORD> --authenticationDatabase admin 
