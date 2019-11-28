@@ -1,6 +1,7 @@
-@import '../../assest/variables.scss';
+@import "../../assest/variables.scss";
 
 .managerContainer {
+<<<<<<< HEAD
 	min-height: 92vh;
 	display: flex;
 	// dailyCheck style
@@ -182,4 +183,197 @@
 		z-index: 555;
 		background-color: rgba($color: #000000, $alpha: 0.7);
 	}
+=======
+  min-height: 92vh;
+  display: flex;
+  // daleyCheck style
+  .daleyCheckContainer {
+    width: 100%;
+    padding: 1%;
+    .tip {
+      text-align: center;
+      color: $light-color;
+    }
+  }
+  // members style
+  .membersContainer {
+    width: 100%;
+    padding: 3% 1% 1% 1%;
+    .selectButton {
+      width: 50px;
+      padding: 3px;
+      background-color: $green-color;
+      color: $white-color;
+    }
+    .editContainer {
+      form {
+        position: fixed;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 2%;
+        width: 40%;
+        min-width: 500px;
+        background-color: $white-color;
+        margin: auto;
+        z-index: 7777;
+        .selectItems {
+          padding: 10px;
+        }
+        .inputItem {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          padding: 10px;
+          .errors {
+            width: 100%;
+            font-size: 0.7rem;
+            color: $red-color;
+            padding: 10px 0 0 0;
+            justify-content: center;
+          }
+          input {
+            width: 70%;
+            height: 40px;
+            padding: 14px;
+            box-shadow: 0 0 3px #ccc;
+          }
+          input[type="submit"] {
+            width: 100px;
+            padding: 10px;
+            background-color: $green-color;
+            color: $white-color;
+          }
+          button {
+            width: 100px;
+            padding: 10px;
+            background-color: $red-color;
+            color: $white-color;
+          }
+        }
+      }
+    }
+  }
+  // sidebar style
+  .sidebarContainer {
+    width: 15%;
+    min-width: 240px;
+    background-color: $gray-color;
+    box-shadow: 0 0 3px #ccc;
+    padding: 3% 1% 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    header {
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+      i {
+        font-size: 3.5rem;
+      }
+      h4 {
+        padding: 0.6rem;
+      }
+    }
+    aside {
+      ul {
+        li {
+          display: flex;
+          align-items: center;
+          font-size: 0.8rem;
+          padding: 1rem 0;
+          color: $dark2-color;
+          border-bottom: 2px solid #ccc;
+          cursor: pointer;
+          transition: all 0.25s;
+          &:hover {
+            color: $green-color;
+            border-color: $green-color;
+            text-decoration: none;
+          }
+          i {
+            font-size: 1.2rem;
+            padding-right: 0.5rem;
+          }
+        }
+      }
+    }
+    footer {
+      button {
+        display: flex;
+        align-items: center;
+        transition: all 0.25s;
+        cursor: pointer;
+        &:hover {
+          color: $green-color;
+        }
+        i {
+          font-size: 1.3rem;
+          padding-right: 0.5rem;
+        }
+      }
+    }
+  }
+  // profile style
+  .profileContainer {
+    width: 100%;
+    header {
+      height: 35vh;
+      background: url("../../assest/Image/portfolioBg.jpg") no-repeat;
+      background-size: cover;
+      background-position: 100% 95%;
+    }
+    .content {
+      background-color: $white-color;
+      box-shadow: 0 0 5px #ccc;
+      min-height: 65vh;
+      margin: -8% 2% 2%;
+      border-radius: 5px;
+      text-align: center;
+      figure,
+      img {
+        margin: 0 auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px #ccc;
+        background-color: $white-color;
+        position: relative;
+        top: -45px;
+      }
+
+      h5 {
+        margin: 0 auto 25px;
+        color: $dark2-color;
+        font-size: 1.1rem;
+      }
+      hr {
+        width: 60%;
+        height: 2px;
+        margin: auto;
+        background-color: $green-color;
+      }
+      input[type="submit"] {
+        background-color: $green-color;
+        border: none;
+        color: $white-color;
+        padding: 8px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+      }
+    }
+  }
+  .comingSoon {
+    margin: 20% auto;
+  }
+  .blackBg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 555;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+  }
+>>>>>>> 91bc36a539d726537f0c77ece974b0b218e3f728
 }

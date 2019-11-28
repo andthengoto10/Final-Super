@@ -1,0 +1,75 @@
+[
+  {
+    "chipNumber": "24716216063204",
+    "rfId": "1",
+    "photo": "data:image/jpeg;base64,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",
+    "firstName": "Waeel",
+    "lastName": "Alsydo",
+    "telefon": "0176-123456789",
+    "matrikelNummer": "Soon",
+    "geburtsDatum": "03.11.1982",
+    "adresse": {
+      "plz": 51103,
+      "stadt": "Köln",
+      "street": "Wiersberg",
+      "hausNummer": 31
+    },
+    "email": "waeel.alsydo@gmail.com",
+    "roles": "Admin",
+    "isVerified": "soon"
+  },
+  {
+    "chipNumber": "24716216063205",
+    "rfId": "2",
+    "photo": "https://thenypost.files.wordpress.com/2019/04/pet-sematary-cat-2a.jpg?quality=90&strip=all&w=978&h=652&crop=1",
+    "firstName": "anton",
+    "lastName": "Kerton",
+    "telefon": "0176-9284567454",
+    "matrikelNummer": "",
+    "geburtsDatum": "14.05.1986",
+    "adresse": {
+      "stadt": "in der Erde",
+      "street": "Blummen",
+      "hausNummer": "46"
+    },
+    "email": "anton.Kerton@gmail.com",
+    "roles": "Admin",
+    "isVerified": ""
+  },
+  {
+    "chipNumber": "24716216063206",
+    "rfId": "3",
+    "photo": "https://thenypost.files.wordpress.com/2019/04/pet-sematary-cat-2a.jpg?quality=90&strip=all&w=978&h=652&crop=1",
+    "firstName": "Mostafa",
+    "lastName": "Turk",
+    "telefon": "0176-156456789",
+    "matrikelNummer": "",
+    "geburtsDatum": "01.12.1979",
+    "adresse": {
+      "stadt": "Düsseldorf",
+      "street": "Son",
+      "hausNummer": "12"
+    },
+    "email": "Mostafa.Turk@gmail.com",
+    "roles": "member",
+    "isVerified": ""
+  },
+  {
+    "chipNumber": "24716216063207",
+    "rfId": "4",
+    "photo": "",
+    "firstName": "Rezan",
+    "lastName": "Smart",
+    "telefon": "0176-333456744",
+    "matrikelNummer": "",
+    "geburtsDatum": "14.03.1984",
+    "adresse": {
+      "stadt": "Düsseldorf",
+      "street": "Moon",
+      "hausNummer": "97"
+    },
+    "email": "Rezan.smart@gmail.com",
+    "roles": "member",
+    "isVerified": ""
+  }
+]
