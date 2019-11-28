@@ -6,7 +6,7 @@ import { logoutUser } from '../../../actions/authActions';
 import classes from '../dashboard.module.scss';
 import DailyCheck from './dailyCheck';
 import Members from './members';
-import Profile from './profile';
+import Profile from "./Profile/profile";
 
 class Manager extends React.Component {
 	state = {
