@@ -13,6 +13,7 @@ class Profile extends React.Component {
 					<figure />
 					<h5>User Name</h5>
 					<hr />
+					<main />
 					<div className="portfolioSwiper">{/* <Slide /> */}</div>
 				</section>
 			</section>

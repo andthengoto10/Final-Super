@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { logoutUser } from '../../../actions/authActions';
 import classes from '../dashboard.module.scss';
-import DaleyCheck from './daleyCheck';
+import DailyCheck from './dailyCheck';
 import Members from './members';
 import Profile from './profile';
 
@@ -14,7 +14,7 @@ class Manager extends React.Component {
 			{
 				id: 1,
 				icon: 'fas fa-columns',
-				text: 'Daley Check'
+				text: 'Daily Check'
 			},
 			{
 				id: 2,
@@ -54,8 +54,8 @@ class Manager extends React.Component {
 	};
 	switchItemsInSidebar = (itemDisplayed) => {
 		switch (itemDisplayed) {
-			case 'Daley Check':
-				return <DaleyCheck />;
+			case 'Daily Check':
+				return <DailyCheck />;
 			case 'Members':
 				return <Members />;
 			case 'Profile':

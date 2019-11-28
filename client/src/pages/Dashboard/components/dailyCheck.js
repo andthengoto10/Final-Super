@@ -29,7 +29,7 @@ const timeFormatter = (cell, row) => {
 	return '-';
 };
 
-class DaleyCheck extends React.Component {
+class DailyCheck extends React.Component {
 	state = {
 		date: new Date(),
 		chipsList: [],
@@ -93,7 +93,7 @@ class DaleyCheck extends React.Component {
 	};
 	render() {
 		return (
-			<section className={classes.daleyCheckContainer}>
+			<section className={classes.dailyCheckContainer}>
 				<Calendar locale="en" onClickDay={this.onClickDay} onChange={this.onChange} value={this.state.date} />
 				{this.state.isOpen ? (
 					<BootstrapTable
@@ -126,7 +126,7 @@ class DaleyCheck extends React.Component {
 	}
 }
 
-DaleyCheck.propTypes = {
+DailyCheck.propTypes = {
 	getAllPersons: PropTypes.func.isRequired,
 	getAllChips: PropTypes.func.isRequired
 };
@@ -135,4 +135,4 @@ const mapStateToProps = (state) => ({
 	chips: state.chips
 });
 
-export default connect(mapStateToProps, { getAllPersons, getAllChips })(DaleyCheck);
+export default connect(mapStateToProps, { getAllPersons, getAllChips })(DailyCheck);

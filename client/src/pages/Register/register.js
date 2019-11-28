@@ -142,7 +142,7 @@ class Register extends React.Component {
           )}
         </Formik>
         <ReCAPTCHA
-          sitekey="6LeD97oUAAAAAJ8qELK18cJ0kKXaol2O_aoVIggn"
+          sitekey="6Let4MQUAAAAAEQMF88qwTV1oqjrMgP8iqUSO2Qk"
           onChange={this.onReCAPTCHA}
           className={classes.notRobot}
           hl={"en"}
